@@ -7,4 +7,4 @@ Run with iverilog
 - //Set src file, testbench file and output file
 - $ iverilog -o dff_test alu/alu.v alu/alu_tb.sv
 - //Read from results output file to print results in terminal
-- $ vvp dff_test
+   -    $ vvp dff_test
