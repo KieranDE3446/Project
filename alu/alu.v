@@ -6,7 +6,7 @@ module alu (
     input wire [3:0] a, // Operand A
     input wire [3:0] b, // Operand B
     input wire [2:0] op, // Operation select (e.g., 000 for add, 001 for subtract, etc.)
-    output reg [3:0] result 
+    output reg [7:0] result 
 );
 //describe the logic
     always @(*) begin
